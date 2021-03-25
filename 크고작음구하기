@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("숫자를 입력하세요");
+
+    int A = scanner.nextInt();
+    System.out.println("변수 A: " + A);
+
+    System.out.println("숫자를 입력하세요");
+    int B = scanner.nextInt();
+    System.out.println("변수 B: " + B);
+
+    if(A>B) {
+      System.out.println("A가 크다");
+    } else if (A<B) {
+      System.out.println("B가 크다");
+    }
+    }
+    }
