@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("3개의 난수를 생성했습니다.");
+
+    int num1 = (int)(Math.random()*9)+1;
+    System.out.println("한 자리의 양의 정수: " + num1);
+
+
+    int num2 = (int)(Math.random()*9)-9;
+    System.out.println("한 자리의 음의 정수: " + num2);
+
+    int num3 = (int)(Math.random()*90)+10;
+    System.out.println("두 자리의 양의 정수: " + num3);
+
+  }
+}
