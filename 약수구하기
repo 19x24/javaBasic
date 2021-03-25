@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+    int A = 12;
+    int B= 4;
+
+    if(A % B ==0){
+      System.out.println("B는 A의 약수입니다.");
+    }
+  }
