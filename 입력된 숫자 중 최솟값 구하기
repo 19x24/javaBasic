@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    int num1 = scanner.nextInt();
+    System.out.println("정수 a: " + num1);
+
+    int num2 = scanner.nextInt();
+    System.out.println("정수 b: :" + num2);
+
+    int num3 = scanner.nextInt();
+    System.out.println("정수 c: " + num3);
+
+    int[] num = {num1, num2, num3};
+    int min = num[0];
+
+    for (int i = 0; i<num.length; i++){if (num[i] < min)
+      min = num[i];
+    }
+
+    System.out.println("최솟값은 " + min + "입니다.");
+
+    }
+
+
+  }
